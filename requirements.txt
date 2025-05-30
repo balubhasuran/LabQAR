@@ -1,0 +1,23 @@
+
+# LLM Inference & Integration
+langchain==0.3.25
+openai==1.14.2
+
+# Local Deployment for LLaMA (optional)
+transformers==4.40.1
+accelerate==0.27.2
+torch==2.2.2
+sentencepiece==0.1.99
+bitsandbytes==0.43.1
+
+# Data Handling
+pandas==2.2.1
+numpy==1.26.4
+
+# Evaluation & Analysis
+scikit-learn==1.4.2
+tqdm==4.66.2
+
+# Visualization (optional)
+matplotlib==3.8.4
+seaborn==0.13.2
