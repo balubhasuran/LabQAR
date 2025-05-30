@@ -61,6 +61,8 @@ Remote LLMs via API
 
 OpenAI Models (GPT-3.5, GPT-4, GPT-4o) accessed via OpenAI API
 Ensure valid API key and environment variables are configured
+
+
 📂 Files Included
 
 Filename	Description
@@ -68,12 +70,16 @@ set1_reference_range.json	JSON data for reference range prediction questions
 set2_classification.json	JSON data for lab value classification questions
 annotation_guidelines.pdf	Detailed instructions followed by annotators during data curation
 requirements.txt	Python package versions for environment replication and model inference
+
+
 🔍 Suggested Evaluation Metrics
 
 Exact Match Accuracy (for Set 1)
 Classification Accuracy (for Set 2)
 Tolerance-Based Match: Acceptable predictions within ±10% and ±20% of true range (for Set 1)
 F1 Score / Confusion Matrix (for Set 2)
+
+
 🧠 Example Use Cases
 
 Evaluating LLM reasoning in real-world clinical decision-making
