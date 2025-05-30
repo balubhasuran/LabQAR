@@ -5,7 +5,7 @@ import random
 import json
 
 # Load the Excel file
-file_path = 'C:\\D\\e Health Lab projects\\Question_Answering\\Lab test corpus\\Final data set\\Evaluation.xlsx'
+file_path = 'file_path'
 df = pd.read_excel(file_path, sheet_name=None)
 
 # Extract the relevant sheet
@@ -82,7 +82,7 @@ gpt_4_accuracy_set2_lenient = evaluation_df['GPT-4_Prediction_Set2_Binary'].mean
 gpt_3_5_accuracy_set2_lenient = evaluation_df['GPT-3.5_Prediction_Set2_Binary'].mean()
 
 # Save the results to a new Excel file
-output_file_path_lenient = 'C:\\D\\e Health Lab projects\\Question_Answering\\Lab test corpus\\Final data set\\Evaluation_Results_Lenient.xlsx'
+output_file_path_lenient = 'file_path'
 evaluation_df.to_excel(output_file_path_lenient, index=False)
 
 (gpt_4_accuracy_lenient, gpt_3_5_accuracy_lenient, gpt_4_accuracy_set2_lenient, gpt_3_5_accuracy_set2_lenient, output_file_path_lenient)
@@ -91,7 +91,7 @@ evaluation_df.to_excel(output_file_path_lenient, index=False)
 import pandas as pd
 
 # Load the Excel file provided by the user
-file_path = 'C:\\D\\e Health Lab projects\\Question_Answering\\Lab test corpus\\Final data set\\Evaluation_Set1.xlsx'
+file_path = 'file_path'
 df = pd.read_excel(file_path, sheet_name='Sheet2')
 
 # Function to handle different formats of values
@@ -167,7 +167,7 @@ df.head(10)
 import pandas as pd
 
 # Data
-file_path = 'C:\\D\\e Health Lab projects\\Question_Answering\\Lab test corpus\\Final data set\\Evaluation_Set1.xlsx'
+file_path = 'file_path'
 df = pd.read_excel(file_path, sheet_name='Sheet2')
 
 def parse_range(range_str):
@@ -220,12 +220,12 @@ results_df = results_df.replace({True: 1, False: 0})
 
 results_df
 
-results_df.to_csv('C:\\D\\e Health Lab projects\\Question_Answering\\Lab test corpus\\Final data set\\Evaluation_Set1_results.csv')
+results_df.to_csv('file_path')
 
 import pandas as pd
 
 # Data
-file_path = 'C:\\D\\e Health Lab projects\\Question_Answering\\Lab test corpus\\Final data set\\Sep\AMIA\\Evaluation_Set1.xlsx'
+file_path = 'file_path'
 df = pd.read_excel(file_path, sheet_name='Sheet2')
 
 # Define the function to parse range strings or single values
@@ -332,7 +332,7 @@ results_summary_df = pd.DataFrame(results_summary)
 results_summary_df
 
 # Load the data
-file_path = 'C:\\D\\e Health Lab projects\\Question_Answering\\Lab test corpus\\Final data set\\Evaluation_Set2_results.xlsx'
+file_path = 'file_path'
 df = pd.read_excel(file_path)
 
 # Perform the comparison
@@ -341,7 +341,7 @@ df['GPT-3.5_Prediction_Set2_Binary'] = (df['Answer_Set2'] == df['GPT-3.5_Set2'])
 df['LLaMA3_Prediction_Set2_Binary'] = (df['Answer_Set2'] == df['LLaMA3_Set2']).astype(int)
 df['GPT-4_RAG_Prediction_Set2_Binary'] = (df['Answer_Set2'] == df['GPT-4_RAG_Set2']).astype(int)
 # Display the updated DataFrame
-df.to_excel('C:\\D\\e Health Lab projects\\Question_Answering\\Lab test corpus\\Final data set\\Evaluation_Set2_results_2.xlsx')
+df.to_excel('file_path')
 df.head()
 
 n = 550
@@ -361,11 +361,11 @@ accuracy_df
 import json
 
 # Load the JSON data
-with open('C:\\D\\e Health Lab projects\\Question_Answering\\Lab test corpus\\Final data set\\Curated550_Lab_Test_Questions_set2.json', 'r') as json_file:
+with open('file_path', 'r') as json_file:
     json_data = json.load(json_file)
 
 # Load the processed predictions
-with open('C:\\D\\e Health Lab projects\\Question_Answering\\Lab test corpus\\Final data set\\RAG\\Processed_RAG_Set2.txt', 'r') as processed_file:
+with open('file_path', 'r') as processed_file:
     predictions = processed_file.readlines()
 
 # Function to map predictions to choices based on the JSON file's Choices field
@@ -409,7 +409,7 @@ import pandas as pd
 import json
 
 # Load the JSONL file
-file_path = 'C:\\D\\e Health Lab projects\\Question_Answering\\Lab test corpus\\GatorTronGPT\\Predict_result_set2.jsonl'
+file_path = 'file_path'
 
 # Read the JSONL file
 data = []
@@ -459,7 +459,7 @@ import pandas as pd
 import json
 
 # Load the JSONL file
-file_path = 'C:\\D\\e Health Lab projects\\Question_Answering\\Lab test corpus\\GatorTronGPT\\Predict_result_set1.jsonl'
+file_path = 'file_pathl'
 
 # Read the JSONL file
 data = []
