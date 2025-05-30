@@ -14,7 +14,7 @@ import numpy
 
 
 # Load the JSON data
-file_path = 'C:\\D\\e Health Lab projects\\Question_Answering\\Lab test corpus\\Final data set\\Curated550_Lab_Test_Questions_set1.json'
+file_path = 'file_path'
 with open(file_path, 'r') as file:
     data = json.load(file)
  
@@ -40,7 +40,7 @@ plt.title('Distribution of Lower Bound Values')
 plt.xlabel('Lower Bound')
 plt.ylabel('Frequency')
 plt.grid(True)
-plt.savefig('C:\\D\\e Health Lab projects\\Question_Answering\\Lab test corpus\\Upper bound.png', dpi=300)
+plt.savefig('Upper bound.png', dpi=300)
 plt.show()
  
 # Distribution of Upper Bound
@@ -50,7 +50,7 @@ plt.title('Distribution of Upper Bound Values')
 plt.xlabel('Upper Bound')
 plt.ylabel('Frequency')
 plt.grid(True)
-plt.savefig('C:\\D\\e Health Lab projects\\Question_Answering\\Lab test corpus\\lower bound.png', dpi=300)
+plt.savefig('lower bound.png', dpi=300)
 plt.show()
  
 # Scatter plot of Lower Bound vs Upper Bound
@@ -62,7 +62,7 @@ plt.xlabel('Lower Bound')
 plt.ylabel('Upper Bound')
 plt.tight_layout()
 plt.grid(True)
-plt.savefig('C:\\D\\e Health Lab projects\\Question_Answering\\Lab test corpus\\scatter plot.png', dpi=300)
+plt.savefig('scatter plot.png', dpi=300)
 plt.show()
 
 
@@ -110,7 +110,7 @@ plt.xlabel('Specimen Type')
 plt.ylabel('Number of Lab Tests')
 plt.xticks(rotation=45, ha='right')  # Make x-axis labels horizontal
 plt.tight_layout()  # Adjust layout to prevent cropping
-plt.savefig('C:\\D\\e Health Lab projects\\Question_Answering\\Lab test corpus\\lab_tests_per_specimen_type.png', dpi=300)
+plt.savefig('lab_tests_per_specimen_type.png', dpi=300)
 plt.show()
 
 
