@@ -6,7 +6,7 @@ openai.api_key = 'OPENAI_API_KEY'
 
 # Load the dataset
 import json
-file_path = json.load(open("C:\\D\\e Health Lab projects\\Question_Answering\\Lab test corpus\\Final data set\\Curated550_Lab_Test_Questions_set1.json"))
+file_path = json.load(open("file_path"))
 # Function to load JSON data safely
 def load_json_file(file_path):
     try:
@@ -61,7 +61,7 @@ for entry in dataset:
 df_results = pd.DataFrame(results_list)
 print(df_results.to_string(index=False))
 
-df_results.to_csv('C:\\D\\e Health Lab projects\\Question_Answering\\Lab test corpus\\Final data set\\Set1_GPT_4o.csv')
+df_results.to_csv('file_path')
 
 results_list = []
 # Loop over each entry in the dataset to process the question
@@ -94,7 +94,7 @@ for entry in dataset:
 
 # Convert the results to a DataFrame and display it
 df_results = pd.DataFrame(results_list)
-df_results.to_csv('C:\\D\\e Health Lab projects\\Question_Answering\\Lab test corpus\\Final data set\\Set1_GPT_4.csv')
+df_results.to_csv('file_path')
 print(df_results.to_string(index=False))
 
 results_list = []
@@ -128,13 +128,13 @@ for entry in dataset:
 
 # Convert the results to a DataFrame and display it
 df_results = pd.DataFrame(results_list)
-df_results.to_csv('C:\\D\\e Health Lab projects\\Question_Answering\\Lab test corpus\\Final data set\\Set1_GPT_3.5.csv')
+df_results.to_csv('file_path')
 print(df_results.to_string(index=False))
 
 #Set 2
 # Load the dataset
 import json
-file_path = json.load(open("C:\\D\\e Health Lab projects\\Question_Answering\\Lab test corpus\\Final data set\\Curated550_Lab_Test_Questions_set4.json"))
+file_path = json.load(open("file_path"))
 # Function to load JSON data safely
 def load_json_file(file_path):
     try:
@@ -186,7 +186,7 @@ for entry in dataset:
 
 # Convert the results to a DataFrame and display it
 df_results = pd.DataFrame(results_list)
-df_results.to_csv('C:\\D\\e Health Lab projects\\Question_Answering\\Lab test corpus\\Final data set\\Set2_GPT_4o.csv')
+df_results.to_csv('file_path')
 print(df_results.to_string(index=False))
 
 # Loop over each entry in the dataset to process the question
@@ -219,7 +219,7 @@ for entry in dataset:
 
 # Convert the results to a DataFrame and display it
 df_results = pd.DataFrame(results_list)
-df_results.to_csv('C:\\D\\e Health Lab projects\\Question_Answering\\Lab test corpus\\Final data set\\Set2_GPT_4.csv')
+df_results.to_csv('file_path')
 print(df_results.to_string(index=False))
 
 # Loop over each entry in the dataset to process the question
@@ -252,6 +252,6 @@ for entry in dataset:
 
 # Convert the results to a DataFrame and display it
 df_results = pd.DataFrame(results_list)
-df_results.to_csv('C:\\D\\e Health Lab projects\\Question_Answering\\Lab test corpus\\Final data set\\Set2_GPT_3.5.csv')
+df_results.to_csv('file_path')
 print(df_results.to_string(index=False))
 
